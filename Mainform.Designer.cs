@@ -79,6 +79,7 @@
             this.menuItem3.Index = 0;
             this.menuItem3.Shortcut = System.Windows.Forms.Shortcut.CtrlO;
             this.menuItem3.Text = "Open ROM...";
+            this.menuItem3.Click += new System.EventHandler(this.ClickOpen);
             // 
             // menuItem4
             // 
